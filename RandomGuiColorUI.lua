@@ -9,7 +9,7 @@ local CoreGuiService = game:GetService("CoreGui")
 local ContentService = game:GetService("ContentProvider")
 
 local Themes = {
-	Light = {
+	1 = {
 		MainFrame = Color3.fromRGB(255,255,255),
 		Minimise = Color3.fromRGB(255,106,0),
 		MinimiseAccent = Color3.fromRGB(147,59,0),
@@ -41,7 +41,7 @@ local Themes = {
 		TextField = Color3.fromRGB(124,37,255),
 		TextFieldAccent = Color3.fromRGB(124,37,255),
 	},
-	Dark = {
+	2 = {
 		MainFrame = Color3.fromRGB(30,30,30),
 		Minimise = Color3.fromRGB(255,106,0),
 		MinimiseAccent = Color3.fromRGB(147,59,0),
@@ -73,7 +73,7 @@ local Themes = {
 		TextField = Color3.fromRGB(175,175,175),
 		TextFieldAccent = Color3.fromRGB(255,255,255),
 	},
-	Mocha = {
+	3 = {
 		MainFrame = Color3.fromRGB(255,255,255),
 		Minimise = Color3.fromRGB(219, 210, 202),
 		MinimiseAccent = Color3.fromRGB(219, 210, 202),
@@ -105,7 +105,7 @@ local Themes = {
 		TextField = Color3.fromRGB(175,175,175),
 		TextFieldAccent = Color3.fromRGB(255,255,255)
 	},
-	Aqua = {
+	4 = {
 		MainFrame = Color3.fromRGB(255,255,0),
 		Minimise = Color3.fromRGB(255, 0, 255),
 		MinimiseAccent = Color3.fromRGB(0, 255, 255),
@@ -137,7 +137,7 @@ local Themes = {
 		TextField = Color3.fromRGB(5, 223, 101),
 		TextFieldAccent = Color3.fromRGB(183, 177, 187)
 	},
-	Nebula = {
+	5 = {
 		MainFrame = Color3.fromRGB(75,0,130),
 		Minimise = Color3.fromRGB(0, 0, 0),
 		MinimiseAccent = Color3.fromRGB(0, 0, 0),
@@ -169,7 +169,7 @@ local Themes = {
 		TextField = Color3.fromRGB(75,0,130),
 		TextFieldAccent = Color3.fromRGB(0,0,0)
 	},
-	Monochrome = {
+	6 = {
 		MainFrame = Color3.fromRGB(0,0,0),
 		Minimise = Color3.fromRGB(0, 0, 0),
 		MinimiseAccent = Color3.fromRGB(0, 0, 0),
@@ -201,7 +201,7 @@ local Themes = {
 		TextField = Color3.fromRGB(0,0,0),
 		TextFieldAccent = Color3.fromRGB(0,0,0)
 	},
-	Jester = {
+	7 = {
 		MainFrame = Color3.fromRGB(255,255,255),
 		Minimise = Color3.fromRGB(219, 210, 202),
 		MinimiseAccent = Color3.fromRGB(219, 210, 202),
