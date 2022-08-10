@@ -190,8 +190,8 @@ local Themes = {
 	},
 	Github = {
 		MainFrame = Color3.fromRGB(51, 3, 0),
-		Minimise = Color3.fromRGB(189, 44, 0),
-		MinimiseAccent = Color3.fromRGB(189, 44, 0),
+		Close = Color3.fromRGB(189, 44, 0),
+		CloseAccent = Color3.fromRGB(189, 44, 0),
 		NavBar = Color3.fromRGB(55,55,55),
 		NavBarAccent = Color3.fromRGB(255,255,255),
 		NavBarInvert = Color3.fromRGB(235,235,235),
