@@ -1,13 +1,12 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Saturn12132/MaterialLua/master/Module.lua"), "Material Lua")()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Saturn12132/Scripts.exe/main/Material-lua-edited-new"), "Material Lua")()
 
 local Lib = Library:Load({
-    Title = "Utmm kit GUI",
-    SizeX = 300,
-    SizeY = 200,
+    Title = "Utmm kit gui key system",
+    SizeX = 200,
+    SizeY = 150,
     Position = "Top-Right",
-    XAlignment = "Center",
     Style = 2,
-    Theme = "Jester"
+    Theme = "Nebula"
 })
 
 local Main = Lib:New({
@@ -19,6 +18,12 @@ Main:TextField({
     Callback = function(KEY)
 getgenv().Key = ""..KEY..""
 if getgenv().Key == "KFCBUCKET" then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Correct",
+Text = "Entered Correct Key",
+Icon = "rbxassetid://9324353939",
+Duration = 5
+})
 game["Run Service"].RenderStepped:connect(
    function()
        setscriptable(game.Players.LocalPlayer, "SimulationRadius", true)
@@ -37,16 +42,16 @@ for i,v in pairs(workspace.Shops:GetChildren()) do
 table.insert(Shops,v.Name)
 end
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Saturn12132/MaterialLua/master/Module.lua"), "Material Lua")()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Saturn12132/Scripts.exe/main/Material-lua-edited-new"), "Material Lua")()
 
 local Lib = Library:Load({
-    Title = "Utmm kit GUI",
+    Title = "Utmm kit GUI v1.1 - Made by Nekai#0289",
     SizeX = 500,
     SizeY = 360,
     Position = "Top-Right",
     XAlignment = "Center",
     Style = 2,
-    Theme = "Jester"
+    Theme = "Nebula"
 })
 
 local Main = Lib:New({
@@ -118,6 +123,13 @@ Main:GuiSettings({
     Theme = false,
     Options = false,
     Rejoin = false,
+})
+else
+game.StarterGui:SetCore("SendNotification", {
+Title = "Incorrect",
+Text = "Entered Incorrect Key",
+Icon = "rbxassetid://2022095309",
+Duration = 5
 })
 end
     end,
