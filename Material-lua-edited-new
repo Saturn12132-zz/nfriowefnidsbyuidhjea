@@ -189,7 +189,7 @@ local Themes = {
 		TextFieldAccent = Color3.fromRGB(255, 255, 255)
 	},
   	Nebula = {
-		MainFrame = Color3.fromRGB(75, 0, 130),
+		MainFrame = Color3.fromRGB(0, 0, 0),
 		Close = Color3.fromRGB(0, 0, 0),
 		CloseAccent = Color3.fromRGB(10, 10, 10),
 		NavBar = Color3.fromRGB(75, 0, 130),
