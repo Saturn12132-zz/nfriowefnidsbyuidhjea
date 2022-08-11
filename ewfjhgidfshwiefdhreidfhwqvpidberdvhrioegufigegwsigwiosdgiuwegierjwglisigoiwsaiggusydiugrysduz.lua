@@ -19,7 +19,7 @@ end
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Saturn12132/MaterialLua/master/Module.lua"), "Material Lua")()
 
 local Lib = Library:Load({
-    Title = "Utmm kit GUI - Made by Nekai#0289 | dont hurt me, I was at something important",
+    Title = "Utmm kit GUI - Made by Nekai#0289 | I was at something important",
     SizeX = 500,
     SizeY = 360,
     Position = "Top-Right",
