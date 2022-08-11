@@ -216,7 +216,7 @@ local Themes = {
 		ColorPicker = Color3.fromRGB(75, 0, 130),
 		ColorPickerAccent = Color3.fromRGB(0, 0, 0),
 		TextField = Color3.fromRGB(75, 0, 130),
-		TextFieldAccent = Color3.fromRGB(0, 0, 0)
+		TextFieldAccent = Color3.fromRGB(255, 255, 255)
 	},
 	Github = {
 		MainFrame = Color3.fromRGB(51, 3, 0),
