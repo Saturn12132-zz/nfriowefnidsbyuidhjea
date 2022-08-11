@@ -108,6 +108,37 @@ Main:Toggle({
     Enabled = false,
 })
 
+Main:Toggle({
+    Text = "XRay (useful for finding secrets)",
+    Callback = function(XRAY)
+xrayOn = XRAY
+		
+		
+for i, descendant in pairs(workspace:GetDescendants()) do
+				
+if descendant:IsA("BasePart") then
+				
+if xrayOn == true then
+					
+if not descendant:FindFirstChild("OriginalTransparency") then
+						
+local originalTransparency = Instance.new("NumberValue")
+originalTransparency.Name = "OriginalTransparency"
+originalTransparency.Value = descendant.Transparency
+originalTransparency.Parent = descendant
+end
+					
+descendant.Transparency = 0.8
+					
+else
+descendant.Transparency = descendant.OriginalTransparency.Value
+end
+end
+end
+    end,
+    Enabled = false,
+})
+
 Main:Dropdown({
     Text = "Shop tp",
     Callback = function(ShopTp)
