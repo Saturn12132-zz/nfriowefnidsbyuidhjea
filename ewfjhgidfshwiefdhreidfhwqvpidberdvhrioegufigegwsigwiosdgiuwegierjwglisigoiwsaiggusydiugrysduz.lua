@@ -18,7 +18,7 @@ Main:TextField({
     Text = "Insert Key here",
     Callback = function(KEY)
 getgenv().Key = ""..KEY..""
-if getgenv().Key == "32bug84hjiwqofg328b28g2hewoig2hgb2u9e28gh9gbug824iqv8oefu12eh1919fhqg81ihurqoi19gh283hfeg8h2ejif4hueqdwr32g9ybfnuwdji13g2unef24gud3nfbgfijoenbf2gyuifenbuvybuingrbnfeimg" then
+if getgenv().Key == "KFCBUCKET" then
 game["Run Service"].RenderStepped:connect(
    function()
        setscriptable(game.Players.LocalPlayer, "SimulationRadius", true)
