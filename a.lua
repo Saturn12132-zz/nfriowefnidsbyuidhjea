@@ -1,9 +1,9 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Saturn12132/Scripts.exe/main/Material-lua-edited-new"), "Material Lua")()
 
 local Lib = Library:Load({
-    Title = "Utmm kit gui key system",
-    SizeX = 200,
-    SizeY = 150,
+    Title = "Nekai's Lazy Utmm Hub key system",
+    SizeX = 250,
+    SizeY = 200,
     Position = "Top-Right",
     Style = 2,
     Theme = "Nebula"
@@ -45,7 +45,7 @@ end
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Saturn12132/Scripts.exe/main/Material-lua-edited-new"), "Material Lua")()
 
 local Lib = Library:Load({
-    Title = "Utmm kit GUI v1.2 - Made by Nekai#0289",
+    Title = "Nekai's Lazy Utmm hub",
     SizeX = 500,
     SizeY = 360,
     Position = "Top-Right",
