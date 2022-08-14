@@ -1,4 +1,3 @@
-print("Welcome to utmm kit gui")
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Saturn12132/Scripts.exe/main/Material-lua-edited-new"), "Material Lua")()
 
 local Lib = Library:Load({
@@ -18,7 +17,7 @@ Main:TextField({
     Text = "Insert Key here",
     Callback = function(KEY)
 getgenv().Key = ""..KEY..""
-if getgenv().Key == "KFCBUCKET" then
+if getgenv().Key == "BR7162NVA8I2H3G7EFG32HU1U" then
 game.StarterGui:SetCore("SendNotification", {
 Title = "Correct",
 Text = "Entered Correct Key",
