@@ -1,3 +1,4 @@
+print("Welcome to utmm kit gui")
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Saturn12132/Scripts.exe/main/Material-lua-edited-new"), "Material Lua")()
 
 local Lib = Library:Load({
