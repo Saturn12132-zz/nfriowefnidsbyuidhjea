@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Satur
 
 local Lib = Library:Load({
     Title = "Nekai's Lazy Utmm Hub key system",
-    SizeX = 250,
+    SizeX = 280,
     SizeY = 200,
     Position = "Top-Right",
     Style = 2,
