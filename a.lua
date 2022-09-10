@@ -6,7 +6,7 @@ local Lib = Library:Load({
     SizeY = 200,
     Position = "Top-Right",
     Style = 2,
-    Theme = "Nebula"
+    Theme = "Dark"
 })
 
 local Main = Lib:New({
