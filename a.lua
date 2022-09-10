@@ -51,7 +51,7 @@ local Lib = Library:Load({
     Position = "Top-Right",
     XAlignment = "Center",
     Style = 2,
-    Theme = "Nebula"
+    Theme = "Dark"
 })
 
 local Main = Lib:New({
