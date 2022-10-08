@@ -12,7 +12,7 @@ local X = Material.Load({
 })
 
 local Y = X.New({
-    Title = "SP farm"
+    Title = "Singleplayer farm"
 })
 
 local A = Y.Button({
@@ -76,7 +76,7 @@ end
 })
 
 local Y = X.New({
-    Title = "A.S"
+    Title = "Auto skip"
 })
 
 local A = Y.Button({
@@ -222,7 +222,7 @@ game:GetService("ReplicatedStorage").GameRemotes.SkinEvent:FireServer(DREAM)
 })
 
 local Y = X.New({
-    Title = "F.EXP"
+    Title = "Farm EXP (Needs 2 players)"
 })
 
 local B = Y.Toggle({
@@ -260,7 +260,7 @@ _G.anejfdu:Disconnect()
 })
 
 local Y = X.New({
-    Title = "Inf.hp"
+    Title = "Inf hp"
 })
 
 local A = Y.Button({
@@ -314,7 +314,7 @@ _G.po:Disconnect()
 })
 
 local Y = X.New({
-    Title = "HE"
+    Title = "Hitbox expander"
 })
 
 local C = Y.Slider({
